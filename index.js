@@ -29,10 +29,10 @@ const questions =()=>inquirer.prompt([
         type: 'list',
       name: 'license',
       message: 'Select the License for the project?',
-    choices:['Apache 2.0 License','GNU GPL v3']
+    choices:['Apache 2.0 License','GNU GPL v3','The MIT License','BSD 2-Clause License','BSD 3-Clause License','Creative Commons Zero v1.0 Universal','Eclipse Public License 1.0','GNU AGPL v3','GNU GPL v2','GNU GPL v3','GNU LGPL v3','Mozilla Public License 2.0','Unlicense']
     },
     {
-        type: 'input',
+        type: 'list',
       name: 'contributing',
       message: 'Enter the contributors for the project?',
     },

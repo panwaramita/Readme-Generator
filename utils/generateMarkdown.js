@@ -118,30 +118,28 @@ function generateMarkdown(data) {
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Tests](#Tests)
- * [License](#License)
 * [Contributions](#Contributions)
 * [Questions](#Questions)
 
-        ## Project Description
-        ${data.description} 
+## Project Description
+${data.description} 
 
-        #Installation
-        ${data.installation} 
+## Installation
+${data.installation} 
 
-        # Usage
-        ${data.usage}
-        
-        # Tests
-        ${data.tests}
-        
-        # Contributions
-        ${data.contribution}
+## Usage
+${data.usage}
+          
+## Tests
+${data.tests}
+          
+## Contributions
+${data.contributing}
 
-        # Questions
-        For more question , please contract project owner via email listed below.
-        Name: ${data.name}:https://github.com/$(data.name)
-        Mail: ${data.email}
-  `
-}
+# Questions
+For more question , please contract project owner via email listed below.\n
+Name: ${data.name}: https://github.com/${data.name}
+\nMail: ${data.email}
+`}
 
 module.exports = generateMarkdown;

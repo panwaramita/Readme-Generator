@@ -104,6 +104,16 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return renderLicenseBadge(license) + renderLicenseLink(license);
 }
+const generateContributor=(data)=> {
+  if(data) return `## Contributions
+  ${data}`;
+  else return '';
+};
+const checkContributor=(data)=>{
+  
+  if(data) return '* [Contributions](#Contributions)';
+  else return '';
+};
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 
@@ -118,7 +128,7 @@ function generateMarkdown(data) {
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Tests](#Tests)
-* [Contributions](#Contributions)
+${checkContributor(data.contributing)}
 * [Questions](#Questions)
 
 ## Project Description
@@ -133,8 +143,7 @@ ${data.usage}
 ## Tests
 ${data.tests}
           
-## Contributions
-${data.contributing}
+${generateContributor(data.contributing)}
 
 # Questions
 For more question , please contract project owner via email listed below.\n

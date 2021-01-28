@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown=require('./utils/generateMarkdown');
+const validateEmail=require('email-validator');
 // TODO: Create an array of questions for user input
 const questions =()=>inquirer.prompt([
     {
@@ -32,10 +33,23 @@ const questions =()=>inquirer.prompt([
     choices:['Apache 2.0 License','GNU GPL v3','The MIT License','BSD 2-Clause License','BSD 3-Clause License','Creative Commons Zero v1.0 Universal','Eclipse Public License 1.0','GNU AGPL v3','GNU GPL v2','GNU GPL v3','GNU LGPL v3','Mozilla Public License 2.0','Unlicense']
     },
     {
-        type: 'input',
-      name: 'contributing',
-      message: 'Enter the contributors for the project?',
+        type: 'confirm',
+      name: 'contributor',
+      message: 'Is your project open for contributions?',
+      default:true
     },
+    {
+      type: 'input',
+    name: 'contributing',
+    message: 'Please explain your contribution guidlines for this project:',
+    when:({contributor})=>{
+      if(contributor)
+      return true
+      else
+      return
+      false
+    }
+  },
     {
         type: 'input',
       name: 'tests',
@@ -50,6 +64,12 @@ const questions =()=>inquirer.prompt([
         type: 'input',
       name: 'email',
       message: 'Enter the email?',
+      validate:(email)=>{
+        if(validateEmail.validate(email))
+        return true;
+        else 
+        return `${email} is not valid`
+      }
     }
 ]);
 

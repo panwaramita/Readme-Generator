@@ -5,7 +5,7 @@
 * [Introduction](#Introduction)
 * [Technologies](#Technologies)
 * [Screenshot](#Screenshot)
-* [Functionality Demonstration](# Functionality Demonstration)
+* [Functionality Demonstration](#Functionality Demonstration)
 
 ## Introduction
 
@@ -21,6 +21,9 @@ Project is created with:
 ## Screenshot
 
 ![image](./asset/images/screenshot.png)
+
 ## Link
 
 [Portfolio](https://panwaramita.github.io/Updated-Portfolio/)
+
+## Functionality Demonstration

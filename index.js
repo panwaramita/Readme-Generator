@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown=require('./utils/generateMarkdown');
 const validateEmail=require('email-validator');
-// TODO: Create an array of questions for user input
+//Create an array of questions for user input
 const questions =()=>inquirer.prompt([
     {
         type: 'input',
@@ -74,13 +74,13 @@ const questions =()=>inquirer.prompt([
 ]);
 
 
-// TODO: Create a function to initialize app
+//Create a function to initialize app
 const init = () => {
     questions().then((answers) => {
       try {
         const read = generateMarkdown(answers);
-        fs.writeFileSync('Read.md', read);
-        console.log('Successfully wrote to index.html');
+        fs.writeFileSync('ReadmeGenrator.md', read);
+        console.log('Successfully wrote to Readme file');
       } catch (error) {
         console.log(error);
       }

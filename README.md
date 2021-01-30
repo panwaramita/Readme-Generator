@@ -20,7 +20,7 @@ Project is created with:
 
 ## Screenshot
 
-![image](./asset/images/screenshot.png)
+![image](./utils/screenshot.png)
 
 ## Link
 

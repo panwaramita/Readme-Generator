@@ -7,7 +7,7 @@
 * [Introduction](#Introduction)
 * [Technologies](#Technologies)
 * [Screenshot](#Screenshot)
-* [Demonstration](#Functionality Demonstration)
+* [Link](#Link)
 
 ## Introduction
 
@@ -24,7 +24,7 @@ Project is created with:
 
 ![image](./utils/screenshot.png)
 
-## Functionality Demonstration
+## Link
 
 [Video Link](./utils/ReadmeVedio.webm)
 

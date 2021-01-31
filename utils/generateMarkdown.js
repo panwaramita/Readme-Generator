@@ -104,27 +104,27 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return renderLicenseBadge(license) + renderLicenseLink(license);
 }
-const generateContributor=(data)=> {
-  if(data) return `## Contributions
+const generateContributor = (data) => {
+  if (data) return `## Contributions
   ${data}`;
   else return '';
 };
-const checkContributor=(data)=>{
-  
-  if(data) return '* [Contributions](#Contributions)';
+const checkContributor = (data) => {
+
+  if (data) return '* [Contributions](#Contributions)';
   else return '';
 };
 //Create a function to generate markdown for README
 function generateMarkdown(data) {
 
   return `# ${data.title}\n`
-  
+
 
     +
     renderLicenseSection(data.license)
     +
-    
- `\n ## Table of Contents
+
+    `\n ## Table of Contents
 
 * [Introduction](#Introduction)
 * [Installation](#Installation)
@@ -144,11 +144,11 @@ ${checkContributor(data.contributing)}
 
 ## License\n`
 
-+
-renderLicenseSection(data.license)
-+
+    +
+    renderLicenseSection(data.license)
+    +
 
-`\n## Usage
+    `\n## Usage
 
 * ${data.usage}
           

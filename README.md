@@ -26,5 +26,5 @@ Project is created with:
 
 ## Link
 
-[Video Link](./utils/ReadmeVedio.webm)
+[Video Link](https://drive.google.com/file/d/1rmYQqLYM4e5YVHTRcufZc4e3XQsAhYV2/view?usp=sharing)
 

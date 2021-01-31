@@ -114,7 +114,7 @@ const checkContributor=(data)=>{
   if(data) return '* [Contributions](#Contributions)';
   else return '';
 };
-// TODO: Create a function to generate markdown for README
+//Create a function to generate markdown for README
 function generateMarkdown(data) {
 
   return `# ${data.title}\n`
@@ -136,11 +136,11 @@ ${checkContributor(data.contributing)}
 
 ## Project Description
 
-${data.description} 
+* ${data.description} 
 
 ## Installation
 
-${data.installation} 
+* ${data.installation} 
 
 ## License\n`
 
@@ -150,19 +150,19 @@ renderLicenseSection(data.license)
 
 `\n## Usage
 
-${data.usage}
+* ${data.usage}
           
 ## Tests
 
 ${data.tests}
           
-${generateContributor(data.contributing)}
+* ${generateContributor(data.contributing)}
 
 ## Questions
 
 For more question , please contract project owner via email listed below.\n
-Name: ${data.name}: https://github.com/${data.name}
-\nMail: ${data.email}
+* Name: ${data.name}: https://github.com/${data.name}\n
+* Mail: ${data.email}
 `}
 
 module.exports = generateMarkdown;

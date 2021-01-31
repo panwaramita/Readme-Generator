@@ -126,7 +126,7 @@ function generateMarkdown(data) {
     
  `\n ## Table of Contents
 
-* [Project Description](#Project Description)
+* [Introduction](#Introduction)
 * [Installation](#Installation)
 * [License](#License)
 * [Usage](#Usage)
@@ -134,7 +134,7 @@ function generateMarkdown(data) {
 ${checkContributor(data.contributing)}
 * [Questions](#Questions)
 
-## Project Description
+## Introduction
 
 * ${data.description} 
 

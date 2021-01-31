@@ -11,25 +11,30 @@
 * [Questions](#Questions)
 
 ## Project Description
-The Code Quiz project, ask the user answer 10 question. For each correct answer user will get plus 5 and for each wrong answer user will get minus 5 and 10 seconds will be deducted from the timer.  
+
+The Code Quiz project, ask the user answer 10 question. For each correct answer user will get plus 5 and for each wrong answer user will get minus 5 and 10 seconds will be deducted from the timer. Once user answer all the question or the time is over then user has to enter its initials and submit. After submit user can view score history. 
 
 ## Installation
-- Visual Studio Code 1.51.1  
+
+- Visual Studio Code 1.51.1 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Usage
-The Code Quiz project, ask the user answer 10 question. For each correct answer user will get plus 5 and for each wrong answer user will get minus 5 and 10 seconds will be deducted from the timer.
+
+- The Code Quiz project, ask the user answer 10 question. For each correct answer user 
           
 ## Tests
-node index
+
+- node index
           
 ## Contributions
-  For the github repository
+- Fork the GitHub Repos
 
-# Questions
+## Questions
+
 For more question , please contract project owner via email listed below.
 
-Name: panwaramita: https://github.com/panwaramita
+- Name: panwaramita: https://github.com/panwaramita
 
-Mail: panwar.amita@gmail.com
+- Mail: panwar@gmail.com

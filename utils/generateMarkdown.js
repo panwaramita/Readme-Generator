@@ -118,11 +118,13 @@ const checkContributor=(data)=>{
 function generateMarkdown(data) {
 
   return `# ${data.title}\n`
+  
 
     +
     renderLicenseSection(data.license)
     +
-    `\n ## Table of Contents
+    
+ `\n ## Table of Contents
 
 * [Project Description](#Project Description)
 * [Installation](#Installation)
@@ -133,24 +135,31 @@ ${checkContributor(data.contributing)}
 * [Questions](#Questions)
 
 ## Project Description
+
 ${data.description} 
 
 ## Installation
+
 ${data.installation} 
 
 ## License\n`
+
 +
 renderLicenseSection(data.license)
 +
+
 `\n## Usage
+
 ${data.usage}
           
 ## Tests
+
 ${data.tests}
           
 ${generateContributor(data.contributing)}
 
-# Questions
+## Questions
+
 For more question , please contract project owner via email listed below.\n
 Name: ${data.name}: https://github.com/${data.name}
 \nMail: ${data.email}

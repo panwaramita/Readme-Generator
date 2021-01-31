@@ -22,8 +22,7 @@ Project is created with:
 
 ![image](./utils/screenshot.png)
 
-## Link
-
-[Portfolio](https://panwaramita.github.io/Updated-Portfolio/)
-
 ## Functionality Demonstration
+
+[Video Link](./utils/ReadmeVedio.webm)
+

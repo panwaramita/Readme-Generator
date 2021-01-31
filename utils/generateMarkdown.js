@@ -138,7 +138,7 @@ ${data.description}
 ## Installation
 ${data.installation} 
 
-## License`
+## License\n`
 +
 renderLicenseSection(data.license)
 +

@@ -7,7 +7,7 @@
 * [Introduction](#Introduction)
 * [Technologies](#Technologies)
 * [Screenshot](#Screenshot)
-* [Functionality Demonstration](#Functionality Demonstration)
+* [Demonstration](#Functionality Demonstration)
 
 ## Introduction
 

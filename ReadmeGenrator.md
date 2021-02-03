@@ -12,7 +12,7 @@
 
 ## Introduction
 
-* The Project is about a quiz play.where user will get the time interval to play the quiz 
+* The project is about a quiz game the player can play for a set of time 
 
 ## Installation
 
@@ -22,14 +22,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Usage
 
-* the project purpose to play the quiz with in the time limit
+* The project is a quiz game
           
 ## Tests
 
 node index
           
 * ## Contributions
-  for the repo
+  fork the repo
 
 ## Questions
 
@@ -37,4 +37,4 @@ For more question , please contract project owner via email listed below.
 
 * Name: panwaramita: https://github.com/panwaramita
 
-* Mail: panwar.amita@gmail.com
+* Mail: panwaramita@gmail.com

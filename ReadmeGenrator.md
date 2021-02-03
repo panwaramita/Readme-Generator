@@ -12,29 +12,29 @@
 
 ## Introduction
 
-The Code Quiz project, ask the user answer 10 question. For each correct answer user will get plus 5 and for each wrong answer user will get minus 5 and 10 seconds will be deducted from the timer. Once user answer all the question or the time is over then user has to enter its initials and submit. After submit user can view score history. 
+* The Project is about a quiz play.where user will get the time interval to play the quiz 
 
 ## Installation
 
-- Visual Studio Code 1.51.1 
+* node js 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Usage
 
-- The Code Quiz project, ask the user answer 10 question. For each correct answer user 
+* the project purpose to play the quiz with in the time limit
           
 ## Tests
 
-- node index
+node index
           
-## Contributions
-- Fork the GitHub Repos
+* ## Contributions
+  for the repo
 
 ## Questions
 
 For more question , please contract project owner via email listed below.
 
-- Name: panwaramita: https://github.com/panwaramita
+* Name: panwaramita: https://github.com/panwaramita
 
-- Mail: panwar@gmail.com
+* Mail: panwar.amita@gmail.com
